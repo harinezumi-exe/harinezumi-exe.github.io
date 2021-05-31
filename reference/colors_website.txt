@@ -1,0 +1,5 @@
+#ebfffb - white-ish // #fbfeff
+#ff5858 - coral
+#61234e - purple
+#681313 - brown
+#032535 - black-ish

@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-warning-trigger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+}
+
+.btn-warning-trigger:hover {
+    cursor: context-menu;
+}
+
+.warning-header {
+    font-size: 1.2rem;
+    justify-content: flex-start;
+}
+
+.warning-icon {
+    font-size: 2rem;
+    color: #ff5858;
+    margin-right: 20px;
+}
+
+.warning-header-text {
+    font-weight: 600;
+}
+
+.notice {
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin: 32px 0 0 0;
+}
+
+.froggy-content {
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.lick-box {
+    height: 90px;
+    width: 90px;
+    z-index: 11;
+    position: absolute;
+    top: 40%;
+}
+
+.lick-left {
+    left: 35%;
+}
+
+.lick-right {
+    right: 34.75%;
+}
+
+.lick-pic {
+    width: 100%;
+}
+
+.frog-pic-box {
+    width: 40%;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    z-index: 9;
+}
+
+.frog-pic {
+    width: 100%;
+}
+
+.leaf-pic-box {
+    width: 40%;
+    position: absolute;
+    bottom: 1%;
+    left: 31%;
+    z-index: 8;
+}
+
+.leaf-pic {
+    width: 100%;
+}
+
+.water-pic-box {
+    width: 100%;
+    z-index: 7;
+    position: absolute;
+    bottom: 0;
+    animation: MoveUpDown 5s linear infinite;
+}
+
+.water-pic {
+    width: 100%;
+    height: 100%;
+}
+  
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: -10%;
+  }
+  50% {
+    bottom: -5%;
+}
+}
+
+@media (max-width: 425px) {
+    .frog-pic-box {
+        width: 80%;
+        bottom: 5%;
+        left: 10%;
+    
+    }
+
+    .leaf-pic-box {
+        width: 60%;
+        bottom: 0;
+        left: 22%;
+    }
+}
+
+@media (max-width: 768px) {
+    .leaf-pic-box {
+        bottom: 1%;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+          bottom: -5%;
+        }
+        50% {
+          bottom: -2%;
+      }
+      }
+}
+
+@media (min-width: 1440px) {
+    .leaf-pic-box {
+        bottom: 2%;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+          bottom: -16%;
+        }
+        50% {
+          bottom: -11%;
+      }
+      }
+}

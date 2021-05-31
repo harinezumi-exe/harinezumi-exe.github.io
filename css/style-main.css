@@ -1,0 +1,194 @@
+/* ***** General ***** */
+body {
+    background-color: #fdfcfc;
+    color: #032535;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #ff5858;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    color: #70295b;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #ff5858;
+}
+
+article {
+    padding: 11% 0;
+}
+
+.no-display {
+    display: none;
+}
+
+.yes-display {
+    display: block;
+}
+
+/* .personal-container {
+    padding: 0 60px;
+} */
+
+/* ***** Navbar ***** */
+
+.main-navbar {
+    background-color: #70295b;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* *** Navigation Logo *** */
+
+.my-logo {
+    font-size: 3rem;
+    color: #ff5858;
+}
+
+.my-logo:hover {
+    color: #fef0ff;
+}
+
+/* *** Navigation Menu *** */
+
+.my-nav-btn {
+    color: #ff5858!important;
+    margin: 0 5px;
+}
+
+.my-nav-btn:hover {
+    color: #fef0ff!important;
+}
+
+.my-nav-btn.active {
+    color: #fef0ff!important;
+}
+
+/* ***** Heading ***** */
+
+.intro {
+    background-color: #fef0ff;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.intro-text {
+    width: fit-content;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.intro-heading {
+    font-size: 7.5rem;
+    margin: 0;
+    font-weight: 900;
+}
+
+.intro-subheading {
+    margin: 0;
+    text-align: right;
+    font-size: 3rem;
+}
+
+.intro-underline {
+    text-decoration: underline;
+}
+
+/* ***** Content ***** */
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+/* *** Bio *** */
+
+.bio-photo {
+    margin-bottom: 70px;
+    width: 200px;
+    overflow-x: hidden;
+}
+
+/* *** Skills *** */
+
+.skills-heading {
+    margin-bottom: 70px;
+}
+
+.skill-container {
+    margin: 15% 0;
+    text-align: left;
+}
+
+.skill-img {
+    height: 200px;
+    text-align: center;
+}
+
+.skill-icon {
+    height: 100%;
+}
+
+/* ***** Footer ***** */
+
+footer {
+    background-color: #fef0ff;
+    color: #70295b;
+    font-size: 0.8rem;
+    padding: 100px 0 50px;
+}
+
+/* *** Footer Contact *** */
+
+.footer-contact {
+    text-align: center;
+}
+
+.footer-contact-heading {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.footer-contact-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer-contact a {
+    font-size: 1.2rem;
+    color: #70295b;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #ff5858;
+}
+
+/* *** Footer Signature *** */
+
+.footer-signature {
+    margin-top: 100px;
+}
+
+.footer-signature p {
+    margin: 0;
+    font-weight: 100;
+}

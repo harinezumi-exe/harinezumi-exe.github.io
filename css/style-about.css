@@ -1,0 +1,84 @@
+article {
+    padding: 3% 0;
+}
+
+.content-about {
+    text-align: center;
+    width: 75%;
+}
+
+.about-heading {
+    margin: 70px 0;
+}
+
+.about-text-container {
+    width: 100%;
+    text-align: left;
+}
+
+.about-subheading {
+    margin: 0 0 30px 0;
+}
+
+.about-text-main {
+    font-weight: 600;
+    margin: 16px 0 10px;
+}
+
+.about-text-sub {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.about-text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.about-text-smaller-margin {
+    margin-bottom: initial;
+}
+
+.hobbies-link {
+    color: #70295b;
+    font-size: 1rem;
+}
+
+.hobbies-link:visited {
+    color: #032535;
+}
+
+.hobbies-link:hover {
+    color: #ff5858;
+    text-decoration: none;
+}
+
+.about-tech-list {
+    list-style-image: url(../img/checkmark.png);
+}
+
+.hobbies-item {
+    text-align: left;
+}
+
+.hobbies-icon {
+    color: #70295b;
+    margin-right: 10px;
+}
+
+@media (min-width: 1535px) {
+    .hobbies-link-box {
+        width: fit-content;
+        margin-right: 20px;
+    }
+
+    .hobbies-link-box:first-of-type {
+        float: left;
+    }
+
+    .hobbies-link-box:last-of-type {
+        float: right;
+    }
+}
